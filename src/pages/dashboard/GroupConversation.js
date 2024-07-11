@@ -17,7 +17,7 @@ import {
 } from "../../sections/Dashboard/GroupConversation";
 import { useDispatch, useSelector } from "react-redux";
 import ScrollbarCustom from "../../components/ScrollbarCustom";
-import { Scrollbars } from "react-custom-scrollbars";
+
 import ScrollbarCustomGroup from "../../components/ScrollBarCustomGroup";
 import AvatarGroupWithTooltip from "../../components/AvatarGroupWithTooltip";
 
