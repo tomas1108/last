@@ -1,0 +1,30 @@
+# Node & npm
+node_modules/
+npm-debug.log
+*.log
+
+# Yarn
+yarn-error.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build files
+build/
+dist/
+
+# Dependency directory
+bower_components/
+
+# dotenv environment variables file
+.env
+.env.test
