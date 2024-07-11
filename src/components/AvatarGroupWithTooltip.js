@@ -1,6 +1,6 @@
 import { AvatarGroup, Avatar, Typography, Box } from "@mui/material";
 import { useSelector } from "react-redux";
-import DoneAllIcon from '@mui/icons-material/DoneAll'; // Import biểu tượng DoneAllIcon
+// import DoneAllIcon from '@mui/icons-material/DoneAll'; // Import biểu tượng DoneAllIcon
 
 const AvatarGroupWithCheckmark = () => {
   // Lọc ra các thành viên có unread: false
@@ -33,7 +33,7 @@ const AvatarGroupWithCheckmark = () => {
         ))}
       </AvatarGroup>
       <Box display="flex" flexDirection="row" justifyContent={"center"} alignItems="center" ml={1} sx={{mt: 1}}>
-        <DoneAllIcon style={{ fontSize: 12 }} /> {/* Hiển thị biểu tượng dấu tích */}
+        {/* <DoneAllIcon style={{ fontSize: 12 }} /> Hiển thị biểu tượng dấu tích */}
         <Typography variant="body2" sx={{ml: 0.5, color: 'inherit', fontSize: 12 }}>Đã xem</Typography> {/* Hiển thị chữ "Đã xem" */}
       </Box>
     </Box>
