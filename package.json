@@ -48,6 +48,7 @@
     "react-scrollbar": "^0.5.6",
     "react-scrollbar-js": "^1.0.1",
     "redux-persist": "^6.0.0",
+    "serve": "^14.2.3",
     "simplebar": "^6.2.5",
     "simplebar-react": "^2.4.3",
     "socket.io-client": "^4.7.5",
@@ -60,8 +61,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+     "serve": "serve -s build",
     "postinstall": "npx update-browserslist-db@latest"
-
   },
   "eslintConfig": {
     "extends": [
