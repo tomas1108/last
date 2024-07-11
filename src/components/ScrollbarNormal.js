@@ -1,4 +1,4 @@
-import { Scrollbars } from 'react-custom-scrollbars';
+import { Scrollbars } from 'react-custom-scrollbars-2';
 const ScrollbarNormal = ({autoHide = true, autoHideTimeout = 2000, autoHideDuration = 500, autoHeight = true, autoHeightMin = "100%", ...parameters }) => {
     return (
         <Scrollbars
