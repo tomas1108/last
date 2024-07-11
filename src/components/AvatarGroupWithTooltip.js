@@ -8,11 +8,11 @@ const AvatarGroupWithCheckmark = () => {
   const unreadMembers = members.filter((member) => !member.unread);
 
   // Kiểm tra nếu không có thành viên nào đã xem, hiển thị một tin nhắn thông báo
-  if (unreadMembers.length === 0) {
-    return (
-      <Typography sx={{fontSize: 12}} textAlign="right" variant="body2"><DoneAllIcon style={{ fontSize: 12 }} /> Tất cả đã xem </Typography>
-    );
-  }
+  // if (unreadMembers.length === 0) {
+  //   return (
+  //     <Typography sx={{fontSize: 12}} textAlign="right" variant="body2"><DoneAllIcon style={{ fontSize: 12 }} /> Tất cả đã xem </Typography>
+  //   );
+  // }
 
   // Nếu có thành viên đã xem, hiển thị AvatarGroup kèm dấu tích và chữ "Đã xem"
   return (
